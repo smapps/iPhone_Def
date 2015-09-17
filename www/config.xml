@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+         id        = "nl.smapps.iPhoneCheckout"
+        versionCode="10" 
+        version   = "2.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>PO CrossOver</name>
+
+    <description>
+	Pan Oston CrossOver App for iPhone with iOS7
+    </description>
+
+    <gap:plugin name="com.phonegap.plugins.barcodescanner"/>
+    
+    <preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="phonegap-version" value="3.0.0" />
+	
+	
+	<icon src="./images/icon.png" gap:platform="ios" width="57" height="57" />
+	<icon src="./images/icon-72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="./images/icon-114.png" gap:platform="ios" width="114" height="114" />
+	
+	<icon src="./images/icon-48.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="./images/icon-48.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="./images/icon-72.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="./images/icon-96.png" gap:platform="android" gap:density="xhdpi" />
+	
+	<gap:splash src="./images/splash-LDPI.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="./images/splash-MDPI.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="./images/splash-HDPI.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="./images/splash-XHDPI.png" gap:platform="android" gap:density="xhdpi" />
+	
+	<gap:splash gap:platform="ios" height="480" src="./images/screen-iphone-portrait.png" width="320" />
+	<gap:splash gap:platform="ios" height="960" src="./images/screen-iphone-portrait-2x.png" width="640" />
+	<gap:splash gap:platform="ios" height="1024" src="./images/screen-ipad-portrait.png" width="768" />
+	
+   <author href="http://www.smapps.nl" email="info@smapps.nl">
+        SMAPPS | S.W. Verploeg and M.Haagen
+    </author>
+
+</widget>

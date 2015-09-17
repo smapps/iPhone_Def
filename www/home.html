@@ -1,0 +1,39 @@
+<div data-role="page" id="home">
+<div data-theme="a" data-role="header" data-position="fixed">
+   <img src="assets/images/loading-logo.png" class="logoImg">
+</div>
+<div data-role="content">
+	<div data-role="popup" id="popupBasic" style="background: #FFF;text-align:center;">
+		<a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" class="ui-btn-right">
+		<img src="./assets/images/icons/btn_delproduct.png" height="20" style="position: absolute; right: 0px; top: 0px;">
+		</a>
+		<p>The scanned barcode was not recognized, please try again.<p>
+	</div>
+	
+    <ul data-role="listview" class="headerTop" data-inset="false">
+        <li data-role="list-divider" role="heading">
+          SCANNED ITEMS
+        </li>
+    </ul>
+	
+	<ul id="orderList" data-filter="false" data-role="listview" data-divider-theme="b" data-inset="true"></ul>
+	<div id="pTotal"></div>
+	
+	<div id="welcome">
+		<div id="klant"></div>
+		<br><br>
+		<font color="#3EA0E1" style="font-size: 12px;">You can start scanning by<br> clicking on scan icon below</font>
+	</div>
+</div>
+
+  <div data-theme="a" data-role="footer" class="footer" data-position="fixed">
+    	<div data-role="navbar" data-iconpos="bottom" data-theme="a">
+            <ul>
+                <li><a id="btnScan" data-ajax="false"><img src="assets/images/icons/i_scan_over.png" height="50" width="50" /></a></li>
+                <li><a id="btnPay"><img src="assets/images/icons/i_pay.png" height="50" width="50" /></a></li>
+                <li><a id="btnExit"><img src="assets/images/icons/i_exit.png" height="50" width="50" /></a></li>
+                <li><a id="btnOptions"><img src="assets/images/icons/i_options.png" height="50" width="50" /></a></li>
+            </ul>
+        </div>
+    </div>
+</div>

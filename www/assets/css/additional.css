@@ -1,0 +1,213 @@
+* {
+            -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+            -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+            -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+            -webkit-user-select: none;                 /* prevent copy paste, to allow, change 'none' to 'text' */
+
+}
+/* CSS Document */
+@font-face {
+    font-family: 'HelvNueRoman';
+    src: url('../fonts/helveticaneueltstd-roman.eot');
+	    src: url('../fonts/helveticaneueltstd-roman.eot#iefix');
+    src: url('../fonts/helveticaneueltstd-roman.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneueltstd-roman.woff') format('woff'),
+         url('../fonts/helveticaneueltstd-roman.ttf') format('truetype'),
+         url('../fonts/helveticaneueltstd-roman.svg#HelveticaNeueLTStd55Roman') format('svg');
+}
+@font-face {
+    font-family: 'HelvNueThin';
+    src: url('../fonts/helveticaneueltstd-th.eot');
+		    src: url('../fonts/helveticaneueltstd-roman.eot#iefix');
+    src: url('../fonts/helveticaneueltstd-th.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneueltstd-th.woff') format('woff'),
+         url('../fonts/helveticaneueltstd-th.ttf') format('truetype'),
+         url('../fonts/helveticaneueltstd-th.svg#HelveticaNeueLTStd35Thin') format('svg');
+}
+body, td, li, p, div, span, h1, h2, h3, h4, h5, h6, font, center
+{
+	font-family: HelvNueThin !important;		
+}
+*{
+	font-family: HelvNueRoman !important;
+}
+a, a:link, a:active, a:visited
+{
+	text-decoration: none;
+	color: 	#3183b5;
+}
+a:hover
+{
+	text-decoration: none;
+	color: 	#000000;
+}
+.ui-header
+{
+	background: #3183b5;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzMxODNiNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iIzNlYTBlMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #3183b5 1%, #3ea0e1 30%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#3183b5), color-stop(30%,#3ea0e1));
+	background: -webkit-linear-gradient(top,  #3183b5 1%,#3ea0e1 30%);
+	background: -o-linear-gradient(top,  #3183b5 1%,#3ea0e1 30%);
+	background: -ms-linear-gradient(top,  #3183b5 1%,#3ea0e1 30%);
+	background: linear-gradient(to bottom,  #3183b5 1%,#3ea0e1 30%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3183b5', endColorstr='#3ea0e1',GradientType=0 );
+	height:100px;
+	text-align:center;
+}
+.logoImg
+{
+	margin-top:35px;
+	height: 60px;
+}
+.headerTop{
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #CCC;
+	background: #eceaf0;
+	color: #333;
+}
+.footer
+{
+	background: #eceaf0;
+	color: #333;
+	border-top: 1px solid #CCC;
+
+}
+/*Pagina "UserSelect"*/
+.DataSet
+{
+	font-size: 14px;
+	padding: 14px;
+}
+.DataSet li
+{
+	border-bottom: 1px solid #ccc !important;
+	margin-bottom: 5px;
+	background: url('../images/icons/i_person.png') no-repeat 0px 4px !important;
+}
+.DataSet li a
+{
+	padding-left:40px;
+}
+.DataSet li span
+{
+	float:right;
+	color: #CCCCCC;
+	font-size: 20px;
+	margin-top: -3px;
+}
+.DataSet .iPerson
+{
+	position: absolute !important; 
+	left: 0px !important; 
+	top: 4px !important;
+}
+/*Eind Pagina UserSelect*/
+/*Pagina "Home"*/
+#showReceipt p, #showReceipt td, #showReceipt tr, #showReceipt li
+{
+	font-size: 12px;
+	font-family: HelvNueThin !important;		
+}
+#welcome{
+	display:hidden;
+	text-align:center;	
+}
+#orderList li{
+	border-bottom: 1px solid #CCCCCC;
+	background: url(../images/icons/i_arrow-right.png) no-repeat right center;
+}
+/*Eind Pagina Home*/
+/*Begin Pagina Scanned Items*/
+#orderList h4{
+	color: #000;	
+}
+#orderList p{
+	color: #555555;	
+}
+#orderList p span{
+	color: #000;	
+}
+.ui-li-count {
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #EBEAF0;
+	border:#EBEAF0;
+	color: #000000;
+	font-weight:normal;
+	width: 15px;
+	height: 25px;
+	line-height: 25px;
+}
+.totalProducts{
+	float:left;
+}
+.totalAmount{
+	float:right;
+	font-weight: bold;	
+}
+/*Eind Pagina Scanned Items*/
+/*Begin Pagina Detail*/
+#productDetail{
+	margin-top:50px;
+	height: 150px;
+}
+#productAmount{
+	font-size: 50px;	
+	height: 70px;
+}
+/*Eind Pagina Detail*/
+/*Begin Pagina Pay*/
+#payCheckout{
+	position: relative;
+	height: 92px;
+		
+}
+#payPincode{
+	font-size: 50px;
+}
+#paymentInfo{
+	position:relatieve;
+	margin-top:50px;
+	clear:both;	
+}
+.totalProducts{
+	position:relative;
+	float:left;	
+	font-weight: bold;
+}
+.totalPrice{
+	position:relative;
+	float:right;	
+	font-weight: bold;
+	font-size: 20px;
+}
+.mobilePayPage{
+	text-align:center;
+}
+/*Eind Pagina Pay*/
+#btnJa{
+	background: #6FD865;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 100%;
+	height:40px;
+	line-height: 40px;
+	text-align:center;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom:10px;
+}
+#btnNee{
+	background: #E93F33;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 100%;
+	height:40px;
+	line-height: 40px;
+	text-align:center;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+}
