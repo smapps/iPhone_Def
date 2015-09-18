@@ -1,6 +1,6 @@
-#var serviceURL = "http://192.168.40.2/api/";
-var serviceURL = "http://po.showittome.nl/api/";"
-#var serviceURL = "http://192.168.30.102/api/";
+var serviceURL = "http://192.168.40.2/api/";
+//var serviceURL = "http://po.showittome.nl/api/";
+//var serviceURL = "http://192.168.30.102/api/";
 function goToURL(url)
 {
 	$.mobile.changePage(url);
